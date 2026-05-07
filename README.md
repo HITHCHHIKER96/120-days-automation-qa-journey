@@ -178,7 +178,7 @@ Get hired as an **Automation QA Engineer / SDET** by August 2026 using:
 ## 📈 Progress Tracker
 | Phase | Days | Status |
 |-------|------|--------|
-| Python Foundation | 1–20 | 🔄 In Progress |
+| Python Foundation | May 1–May 20 | 🔄 In Progress |
 | Playwright with Python | 21–55 | ⏳ Pending |
 | API Testing | 56–80 | ⏳ Pending |
 | Reports + CI | 81–100 | ⏳ Pending |
