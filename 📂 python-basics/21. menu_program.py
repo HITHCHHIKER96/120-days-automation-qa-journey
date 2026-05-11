@@ -35,3 +35,4 @@ for food in cart:
 
 print()
 print(f"Your total is {total}")
+print("Hello")
