@@ -15,6 +15,6 @@ korean_beauty("Eblin", "Beauty")
 
 def multiply(a, b):
     answer = a * b
-    print(answer)
+    return answer
 
-multiply(56,56)
+print(multiply(56,56))
