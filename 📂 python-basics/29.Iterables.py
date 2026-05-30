@@ -37,3 +37,10 @@ print(next(my_iterator))  # Output: 10
 print(next(my_iterator))  # Output: 20
 # print(next(my_iterator)) # This would raise StopIteration exception
 
+
+my_dict ={"A":1, "B": 2, "C": 3, "D":4, "E":5}
+for x in my_dict.values():
+    print(x)
+
+for key, value in my_dict.items():
+    print(f"{key} = {value}")  #by this you can print both value and key
