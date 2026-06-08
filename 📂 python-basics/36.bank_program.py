@@ -1,6 +1,6 @@
 # Python Bank Program:
 
-def show_balance():
+def show_balance(balance):
     print(f"Your current balance is: ${balance:.2f}")
 
 def deposit():
@@ -11,7 +11,7 @@ def deposit():
     else:
         return money
 
-def withdraw():
+def withdraw(balance):
     w_money = float(input("Enter the money you want to withdraw: "))
     if w_money > balance:
         print("Insufficient Balance.")
@@ -31,16 +31,16 @@ def main():
         print("1. Show Balance")
         print("2. Deposit")
         print("3. Withdraw")
-        print("5. Exit.")
+        print("4. Exit.")
 
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            show_balance()
+            show_balance(balance)
         elif choice == '2':
             balance += deposit()
         elif choice == '3':
-            balance -= withdraw()
+            balance -= withdraw(balance)
         elif choice == '4':
             is_running = False
         else:
